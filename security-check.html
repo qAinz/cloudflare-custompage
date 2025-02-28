@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sicherheitsüberprüfung | habboz.de</title>
+    <style>
+        /* Allgemeine Stile */
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #292929;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Logo */
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        /* CAPTCHA Box Styling */
+        .captcha-box {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://your-logo-url.com/logo.png" alt="Logo" class="logo">
+        <h1>Überprüfung erforderlich</h1>
+        <p>Bitte bestätigen Sie, dass Sie ein Mensch sind, um fortzufahren.</p>
+
+        <!-- Cloudflare CAPTCHA Box -->
+        <div class="captcha-box">
+            ::CAPTCHA_BOX::
+        </div>
+
+        <p>Danke für Ihr Verständnis.</p>
+    </div>
+</body>
+</html>
